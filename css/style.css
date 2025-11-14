@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 html {
     box-sizing: border-box;
     font-size: 62,5%;
@@ -19,4 +20,64 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.header-contenido {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.header-contenido a {
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.header-contenido a:hover {
+    color: orange;
+}
+
+.hero {
+    width: 100%;
+    height: 25rem;
+    background-image: url(/img/hero.png);
+    background-size: cover;
+    position: relative;
+}
+
+.hero-contenido {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+    .header-contenido {
+        flex-direction: row;
+        gap: 2rem;
+    }
 }

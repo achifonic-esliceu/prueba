@@ -1,0 +1,42 @@
+.titulo {
+    font-size: 1rem;
+    text-align: center;
+}
+.table-container {
+    width: 60%;
+    margin: 20px auto;    
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+
+}
+
+thead {
+    background-color: #f1f1f1;
+}
+
+th {
+    text-align: left;
+    padding: 12px;
+    font-weight: bold;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+.tr-diferente {
+    background-color: #fafafa;
+}
+
+td.nota {
+    font-weight: bold;
+}
